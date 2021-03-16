@@ -1,0 +1,3 @@
+C:\Users\Ostap\source\repos\Doberys_game\Doberys_game\Debug\Doberys_game.vcxprojAssemblyReference.cache
+C:\Users\Ostap\source\repos\Doberys_game\Doberys_game\Debug\Doberysgame.MyForm.resources
+C:\Users\Ostap\source\repos\Doberys_game\Doberys_game\Debug\Doberys_game.vcxproj.GenerateResource.cache
