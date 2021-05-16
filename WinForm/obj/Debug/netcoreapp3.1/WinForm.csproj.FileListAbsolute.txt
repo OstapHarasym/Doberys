@@ -1,0 +1,16 @@
+C:\Users\Ostap\source\repos\Doberys\WinForm\bin\Debug\netcoreapp3.1\WinForm.exe
+C:\Users\Ostap\source\repos\Doberys\WinForm\bin\Debug\netcoreapp3.1\WinForm.deps.json
+C:\Users\Ostap\source\repos\Doberys\WinForm\bin\Debug\netcoreapp3.1\WinForm.runtimeconfig.json
+C:\Users\Ostap\source\repos\Doberys\WinForm\bin\Debug\netcoreapp3.1\WinForm.runtimeconfig.dev.json
+C:\Users\Ostap\source\repos\Doberys\WinForm\bin\Debug\netcoreapp3.1\WinForm.dll
+C:\Users\Ostap\source\repos\Doberys\WinForm\bin\Debug\netcoreapp3.1\WinForm.pdb
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.csprojAssemblyReference.cache
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.Form1.resources
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.csproj.GenerateResource.cache
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.AssemblyInfoInputs.cache
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.AssemblyInfo.cs
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.csproj.CoreCompileInputs.cache
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.dll
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.pdb
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.genruntimeconfig.cache
+C:\Users\Ostap\source\repos\Doberys\WinForm\obj\Debug\netcoreapp3.1\WinForm.Properties.Resources.resources
