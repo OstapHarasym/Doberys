@@ -165,4 +165,45 @@ namespace WinForm
             }
         }
     }
+
+    #region Window
+    abstract class Window
+    {
+        // хз чи так варто робити, може краще через простий клас і об'єкт на нього
+        void SetInterface()
+        {
+
+        }
+    }
+    class Menu: Window
+    {
+
+    }
+    class Settings: Window
+    {
+
+    }
+    class GameArea: Window
+    {
+
+    }
+    #endregion
+    #region Sprite
+    abstract class Sprite
+    {
+
+    }
+    class Hero: Sprite
+    {
+
+    }
+    class Enemy: Sprite
+    {
+
+    }
+    #endregion
+    class Map
+    {
+
+    }
 }
