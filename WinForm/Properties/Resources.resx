@@ -121,4 +121,19 @@
   <data name="Типи даних C#" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Типи даних C#.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="вертикальна стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вертикальна стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Кутова стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Кутова стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кущ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кущ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="горизонтальна стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\горизонтальна стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

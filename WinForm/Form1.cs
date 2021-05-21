@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace WinForm
 {
     public partial class Form1 : Form
@@ -27,8 +28,18 @@ namespace WinForm
             this.WindowState = FormWindowState.Maximized;
             this.Controls.Remove(button1);
         }
+
+
+
+
+
+
+
+
+
         private void button2_Click(object sender, EventArgs e)
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Controls.Remove(button2);
             Map.gen();
             for (int i = 0; i < Length; i++)
@@ -37,10 +48,12 @@ namespace WinForm
                 {
                     if (_Map[i, j] == 1)
                     {
-                        Button button = new Button();
-                        button.Location = new Point(i * f, j * k);
-                        button.Size = new Size(f, k);
-                        this.Controls.Add(button);
+                        PictureBox pictureBox = new PictureBox();
+                        pictureBox.Location = new Point(20 + i * f, 18 + j * k);
+                        pictureBox.Size = new Size(f, k);
+                        pictureBox.Image = Properties.Resources.кущ;
+                        pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
+                        this.Controls.Add(pictureBox);
                     }
                     else if(_Map[i, j] == 2)
                     {
@@ -50,10 +63,65 @@ namespace WinForm
                     }
                 }
             }
+            for (int i = 0; i < Length; i++)
+            {
+                PictureBox buttonUp = new PictureBox();
+                buttonUp.Location = new Point(20 + i * f);
+                buttonUp.Size = new Size(f, 18);
+                buttonUp.Image = Properties.Resources.горизонтальна_стіна;
+                buttonUp.SizeMode = PictureBoxSizeMode.StretchImage;
+                this.Controls.Add(buttonUp);
+                PictureBox buttonDown = new PictureBox();
+                buttonDown.Location = new Point(20 + i * f, 1062);
+                buttonDown.Size = new Size(f, 18);
+                buttonDown.Image = Properties.Resources.горизонтальна_стіна;
+                buttonDown.SizeMode = PictureBoxSizeMode.StretchImage;
+                this.Controls.Add(buttonDown);
+            }
+            for (int i = 0; i < High; i++)
+            {
+                PictureBox buttonLeft = new PictureBox();
+                buttonLeft.Location = new Point(0, 18 + i * k);
+                buttonLeft.Size = new Size(20, k);
+                buttonLeft.Image = Properties.Resources.вертикальна_стіна;
+                buttonLeft.SizeMode = PictureBoxSizeMode.StretchImage;
+                this.Controls.Add(buttonLeft);
+                PictureBox buttonRight = new PictureBox();
+                buttonRight.Location = new Point(1900, 18 + i * k);
+                buttonRight.Size = new Size(20, k);
+                buttonRight.Image = Properties.Resources.вертикальна_стіна; 
+                buttonRight.SizeMode = PictureBoxSizeMode.StretchImage;
+                this.Controls.Add(buttonRight);
+            }
+            for (int i = 0; i < 2; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    PictureBox buttonLeft = new PictureBox();
+                    buttonLeft.Location = new Point(i * 1900, j * 1062);
+                    buttonLeft.Size = new Size(20, 18);
+                    buttonLeft.Image = Properties.Resources.Кутова_стіна;
+                    buttonLeft.SizeMode = PictureBoxSizeMode.StretchImage;
+                    this.Controls.Add(buttonLeft);
+                }
+            }
         }
-        private static int k = 90, f = 96;
+
+
+
+
+
+
+
+
+
+
+        private static int k = 87, f = 94;
         static int Length = 20;
-        static int High = 15;
+
+        
+
+        static int High = 12;
         static int[,] _Map = new int[Length, High];
 
         class Map
