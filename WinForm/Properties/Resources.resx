@@ -118,22 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Типи даних C#" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Типи даних C#.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="вертикальна стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\вертикальна стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Кутова стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Кутова стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="кущ" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\кущ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ліво" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ліво.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="горизонтальна стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\горизонтальна стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Типи даних C#" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Типи даних C#.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="generic-rpg-tree01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\generic-rpg-tree01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="item1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\item1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кущ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кущ.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d2114f00-ec39-4479-a799-c13390-unscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d2114f00-ec39-4479-a799-c13390-unscreen.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кактус1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кактус.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="кактус" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\кактус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bloonberry_Bush_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bloonberry_Bush_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Кутова стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Кутова стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="вертикальна стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\вертикальна стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1529678303_Flying_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1529678303_Flying_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

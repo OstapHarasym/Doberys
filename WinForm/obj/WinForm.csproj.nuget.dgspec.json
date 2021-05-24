@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ostap\\source\\repos\\Doberys\\WinForm\\WinForm.csproj": {}
+    "C:\\Users\\Ostap\\Documents\\GitHub\\Doberys\\WinForm\\WinForm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ostap\\source\\repos\\Doberys\\WinForm\\WinForm.csproj": {
+    "C:\\Users\\Ostap\\Documents\\GitHub\\Doberys\\WinForm\\WinForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ostap\\source\\repos\\Doberys\\WinForm\\WinForm.csproj",
+        "projectUniqueName": "C:\\Users\\Ostap\\Documents\\GitHub\\Doberys\\WinForm\\WinForm.csproj",
         "projectName": "WinForm",
-        "projectPath": "C:\\Users\\Ostap\\source\\repos\\Doberys\\WinForm\\WinForm.csproj",
+        "projectPath": "C:\\Users\\Ostap\\Documents\\GitHub\\Doberys\\WinForm\\WinForm.csproj",
         "packagesPath": "C:\\Users\\Ostap\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ostap\\source\\repos\\Doberys\\WinForm\\obj\\",
+        "outputPath": "C:\\Users\\Ostap\\Documents\\GitHub\\Doberys\\WinForm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ostap\\AppData\\Roaming\\NuGet\\NuGet.Config",

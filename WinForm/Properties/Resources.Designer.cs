@@ -63,9 +63,59 @@ namespace WinForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1529678303_Flying_ {
+            get {
+                object obj = ResourceManager.GetObject("1529678303_Flying_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bloonberry_Bush_Icon {
+            get {
+                object obj = ResourceManager.GetObject("Bloonberry_Bush_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap d2114f00_ec39_4479_a799_c13390_unscreen {
+            get {
+                object obj = ResourceManager.GetObject("d2114f00-ec39-4479-a799-c13390-unscreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ezgif_com_gif_maker {
             get {
                 object obj = ResourceManager.GetObject("ezgif.com-gif-maker", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap generic_rpg_tree01 {
+            get {
+                object obj = ResourceManager.GetObject("generic-rpg-tree01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap item1 {
+            get {
+                object obj = ResourceManager.GetObject("item1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,6 +143,26 @@ namespace WinForm.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap кактус {
+            get {
+                object obj = ResourceManager.GetObject("кактус", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap кактус1 {
+            get {
+                object obj = ResourceManager.GetObject("кактус1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Кутова_стіна {
             get {
                 object obj = ResourceManager.GetObject("Кутова стіна", resourceCulture);
@@ -106,6 +176,16 @@ namespace WinForm.Properties {
         internal static System.Drawing.Bitmap кущ {
             get {
                 object obj = ResourceManager.GetObject("кущ", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ліво {
+            get {
+                object obj = ResourceManager.GetObject("ліво", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
