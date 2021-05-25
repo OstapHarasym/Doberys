@@ -124,11 +124,17 @@
   <data name="горизонтальна стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\горизонтальна стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1529678303_Flying_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1529678303_Flying_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ezgif.com-gif-maker" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ezgif.com-gif-maker.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Типи даних C#" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Типи даних C#.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="право" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\право.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="generic-rpg-tree01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\generic-rpg-tree01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,16 +154,37 @@
   <data name="кактус" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\кактус.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="пташка летить вліво" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\пташка летить вліво.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Bloonberry_Bush_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bloonberry_Bush_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="цешо" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\цешо.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Кутова стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Кутова стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ліво1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ліво1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="вертикальна стіна" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\вертикальна стіна.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1529678303_Flying_" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1529678303_Flying_.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="шосьскакуче" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\шосьскакуче.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="сердечко" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\сердечко.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ezgif1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ezgif.com-gif-maker1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="goldcoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goldcoin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="silver_coin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\silver_coin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

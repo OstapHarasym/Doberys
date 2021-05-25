@@ -322,7 +322,56 @@ namespace WinForm
         PictureBox enemy;
         int enemycount = 0;
         bool eUp, eDown, eLeft, eRight;
-        
+
+        PictureBox enemy2;
+        bool zUp, zDown, zLeft, zRight;
+        Point zz;
+
+        private void addEnemy2()
+        {
+            var Rand = new Random();
+            x = Rand.Next(0, 20);
+            y = Rand.Next(0, 12);
+            while (_Map[y, x] != 0)
+            {
+                x = Rand.Next(0, 20);
+                y = Rand.Next(0, 12);
+            }
+
+
+
+            PictureBox pictureBox1 = new PictureBox();
+            zz.X = f * x + 20 + 5;
+            zz.Y = k * y + 18 + 5;
+            pictureBox1.Location = zz;
+            pictureBox1.Size = new System.Drawing.Size(65, 65);
+            pictureBox1.Image = Properties.Resources.цешо;
+            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Controls.Add(pictureBox1);
+            enemy2 = pictureBox1;
+
+
+            switch (Rand.Next(0, 4))
+            {
+                case 0:
+                    zUp = true;
+                    break;
+                case 1:
+                    zDown = true;
+                    break;
+                case 2:
+                    zLeft = true;
+                    break;
+                case 3:
+                    zRight = true;
+                    break;
+            }
+        }
+
+
+
+
+
         void removeBorder()
         {
             bool stop = false;
@@ -414,7 +463,7 @@ namespace WinForm
             xx.Y = k * y + 18 + 5;
             pictureBox1.Location = xx;
             pictureBox1.Size = new System.Drawing.Size(65, 65);
-            pictureBox1.Image = Properties.Resources.Типи_даних_C_;
+            pictureBox1.Image = Properties.Resources.ліво1;
             pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Controls.Add(pictureBox1);
             enemy = pictureBox1;
@@ -502,10 +551,25 @@ namespace WinForm
             item.Location = yy;
             item.Size = new System.Drawing.Size(30, 30);
 
-            switch (Rand.Next(0, 1))
+            switch (Rand.Next(0, 6))
             {
                 case 0:
                     item.Image = Properties.Resources.item1;
+                    break;
+                case 1:
+                    item.Image = Properties.Resources.ezgif1;
+                    break;
+                case 2:
+                    item.Image = Properties.Resources.сердечко;
+                    break;
+                case 3:
+                    item.Image = Properties.Resources.шосьскакуче;
+                    break;
+                case 4:
+                    item.Image = Properties.Resources.silver_coin;
+                    break;
+                case 5:
+                    item.Image = Properties.Resources.goldcoin;
                     break;
             }
 
@@ -668,7 +732,97 @@ namespace WinForm
                     }
                 }
             }
-            
+
+            if (enemy2 != null)
+            {
+                foreach (traps x in Traps)
+                {
+
+                    {
+                        if (x.pb != null && enemy != null && x.pb.Bounds.IntersectsWith(enemy2.Bounds))
+                        {
+                            var Rand = new Random();
+                            if (zUp == true)
+                            {
+                                zUp = false;
+                                zz.Y += 7;
+                                enemy2.Location = zz;
+                                switch (Rand.Next(0, 3))
+                                {
+                                    case 0:
+                                        zDown = true;
+                                        break;
+                                    case 1:
+                                        zLeft = true;
+                                        break;
+                                    case 2:
+                                        zRight = true;
+                                        break;
+                                }
+
+                            }
+                            else if (zDown == true)
+                            {
+                                zDown = false;
+                                zz.Y -= 7;
+                                enemy2.Location = zz;
+                                switch (Rand.Next(0, 3))
+                                {
+                                    case 0:
+                                        zUp = true;
+                                        break;
+                                    case 1:
+                                        zLeft = true;
+                                        break;
+                                    case 2:
+                                        zRight = true;
+                                        break;
+                                }
+                            }
+                            else if (zRight == true)
+                            {
+                                zRight = false;
+                                zz.X -= 7;
+                                enemy.Location = zz;
+                                switch (Rand.Next(0, 3))
+                                {
+                                    case 0:
+                                        zDown = true;
+                                        break;
+                                    case 1:
+                                        zLeft = true;
+                                        break;
+                                    case 2:
+                                        zUp = true;
+                                        break;
+                                }
+                            }
+                            else if (zLeft == true)
+                            {
+                                zLeft = false;
+                                zz.X += 7;
+                                enemy.Location = zz;
+                                switch (Rand.Next(0, 3))
+                                {
+                                    case 0:
+                                        zDown = true;
+                                        break;
+                                    case 1:
+                                        zUp = true;
+                                        break;
+                                    case 2:
+                                        zRight = true;
+                                        break;
+                                }
+                            }
+                            bounded = true;
+                            timer += 10;
+
+                        }
+                    }
+                }
+            }
+
             if (stopRemoving != true && pictureBox1 != null && item != null && pictureBox1.Bounds.IntersectsWith(item.Bounds))
             {
                 itemCount++;
@@ -679,6 +833,10 @@ namespace WinForm
                 else if (itemCount == 2)
                 {
                     addBird();
+                }
+                else if (itemCount == 3)
+                {
+                    addEnemy2();
                 }
                 //item.Location =
                 Controls.Remove(item);
@@ -782,6 +940,95 @@ namespace WinForm
                     }
                 }
             }
+
+            if (enemy2 != null)
+            {
+                foreach (traps x in Borders)
+                {
+
+                    {
+                        if (x.pb != null && enemy != null && x.pb.Bounds.IntersectsWith(enemy2.Bounds))
+                        {
+                            var Rand = new Random();
+                            if (zUp == true)
+                            {
+                                zUp = false;
+                                zz.Y += 7;
+                                enemy2.Location = zz;
+                                switch (Rand.Next(0, 3))
+                                {
+                                    case 0:
+                                        zDown = true;
+                                        break;
+                                    case 1:
+                                        zLeft = true;
+                                        break;
+                                    case 2:
+                                        zRight = true;
+                                        break;
+                                }
+
+                            }
+                            else if (zDown == true)
+                            {
+                                zDown = false;
+                                zz.Y -= 7;
+                                enemy2.Location = zz;
+                                switch (Rand.Next(0, 3))
+                                {
+                                    case 0:
+                                        zUp = true;
+                                        break;
+                                    case 1:
+                                        zLeft = true;
+                                        break;
+                                    case 2:
+                                        zRight = true;
+                                        break;
+                                }
+                            }
+                            else if (zRight == true)
+                            {
+                                zRight = false;
+                                zz.X -= 7;
+                                enemy2.Location = zz;
+                                switch (Rand.Next(0, 3))
+                                {
+                                    case 0:
+                                        zDown = true;
+                                        break;
+                                    case 1:
+                                        zLeft = true;
+                                        break;
+                                    case 2:
+                                        zUp = true;
+                                        break;
+                                }
+                            }
+                            else if (zLeft == true)
+                            {
+                                zLeft = false;
+                                zz.X += 7;
+                                enemy2.Location = zz;
+                                switch (Rand.Next(0, 3))
+                                {
+                                    case 0:
+                                        zDown = true;
+                                        break;
+                                    case 1:
+                                        zUp = true;
+                                        break;
+                                    case 2:
+                                        zRight = true;
+                                        break;
+                                }
+                            }
+                            bounded = true;
+                            timer += 10;
+                        }
+                    }
+                }
+            }
             ///////////////////////////////////////////////////////////////////////////
             if (Bird != null)
             {
@@ -796,6 +1043,7 @@ namespace WinForm
                 {
                     bb.X -= 2;
                     Bird.Location = bb;
+                    Bird.Image = Properties.Resources.пташка_летить_вліво;
                 }
                 else if (birdDown == true)
                 {
@@ -806,6 +1054,7 @@ namespace WinForm
                 {
                     bb.X += 2;
                     Bird.Location = bb;
+                    Bird.Image = Properties.Resources._1529678303_Flying_;
                 }
             
                 
@@ -891,31 +1140,54 @@ namespace WinForm
 
             if (enemy != null)
             {
-                    
-                        if (eUp == true)
-                        {
-                            xx.Y -= 2;
-                            enemy.Location = xx;
-                        }
-                        else if (eLeft == true)
-                        {
-                            xx.X -= 2;
-                            enemy.Location = xx;
-                        }
-                        else if (eDown == true)
-                        {
-                            xx.Y += 2;
-                            enemy.Location = xx;
-                        }
-                        else if (eRight == true)
-                        {
-                            xx.X += 2;
-                            enemy.Location = xx;
-                        }
-                    
-                
+                if (eUp == true)
+                {
+                    xx.Y -= 2;
+                    enemy.Location = xx;
+                }
+                else if (eLeft == true)
+                {
+                    xx.X -= 2;
+                    enemy.Location = xx;
+                    enemy.Image = Properties.Resources.ліво1;
+                }
+                else if (eDown == true)
+                {
+                    xx.Y += 2;
+                    enemy.Location = xx;
+                }
+                else if (eRight == true)
+                {
+                    xx.X += 2;
+                    enemy.Location = xx;
+                    enemy.Image = Properties.Resources.право;
+                }
             }
 
+            if (enemy2 != null)
+            {
+                if (zUp == true)
+                {
+                    zz.Y -= 2;
+                    enemy2.Location = zz;
+                }
+                else if (zLeft == true)
+                {
+                    zz.X -= 2;
+                    enemy2.Location = zz;
+                    
+                }
+                else if (zDown == true)
+                {
+                    zz.Y += 2;
+                    enemy2.Location = zz;
+                }
+                else if (zRight == true)
+                {
+                    zz.X += 2;
+                    enemy2.Location = zz;
+                }
+            }
 
             if (bounded != true && Rand2.Next(0, 50) == 9)
             {
@@ -949,6 +1221,40 @@ namespace WinForm
                 }
                 
             }
+
+            if (bounded != true && Rand2.Next(0, 50) == 9)
+            {
+                if (zRight == true || zLeft == true)
+                {
+                    zLeft = false;
+                    zRight = false;
+                    switch (Rand2.Next(0, 2))
+                    {
+                        case 0:
+                            zUp = true;
+                            break;
+                        case 1:
+                            zDown = true;
+                            break;
+                    }
+                }
+                else
+                {
+                    zDown = false;
+                    zUp = false;
+                    switch (Rand2.Next(0, 2))
+                    {
+                        case 0:
+                            zRight = true;
+                            break;
+                        case 1:
+                            zLeft = true;
+                            break;
+                    }
+                }
+
+            }
+
             if (pictureBox1 != null && (pictureBox1.Location.X > 1920 || pictureBox1.Location.X < 0 || pictureBox1.Location.Y > 1080 || pictureBox1.Location.Y < 0))
             {
                 addItem();
@@ -960,6 +1266,10 @@ namespace WinForm
                     lives--;
                 }
                 else if (Bird != null && pictureBox1.Bounds.IntersectsWith(Bird.Bounds))
+                {
+                    lives--;
+                }
+                else if (enemy2 != null && pictureBox1.Bounds.IntersectsWith(enemy2.Bounds))
                 {
                     lives--;
                 }
